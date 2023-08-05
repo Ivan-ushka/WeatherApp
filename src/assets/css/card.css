@@ -1,0 +1,108 @@
+.card-advantages{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 80px;
+
+}
+
+.card-advantages h1{
+    color: #1f70bf;
+    font-size: 3.5em;
+    font-family: "Roboto Thin";
+    font-weight:  600;
+}
+.h1-wrap{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.container_ li, .container li{
+    padding: 15px;
+    font-family: "Roboto";
+}
+
+.container_ {
+    padding: 40px 0;
+}
+.container_ img{
+    max-width: 385px;
+    max-height: 300px;
+}
+
+.card-advantages .left{
+    display: flex;
+    align-items: center;
+
+}
+.card-advantages .right{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.card-advantages button{
+    margin-right: 20px;
+    height: 40px;
+    width: 80px;
+}
+.list1{
+    margin-left: 30px;
+}
+
+.img-wrap2{
+    margin-left: 30px;
+}
+.card-advantages img{
+    height: auto;
+    width: 100%;
+    max-width: 432px;
+    max-height: 250px;
+}
+
+@media screen and (max-width: 900px) {
+    .card-advantages h1{
+        color: #1f70bf;
+        font-size: 7.5vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card-advantages .left{
+        display: block;
+        padding-right: 50px;
+    }
+    .card-advantages .right{
+        display: block;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card-advantages{
+        font-size: 1.5em;
+    }
+    .list1{
+        margin-left: 0px;
+    }
+
+    .img-wrap2{
+        margin-left: 0px;
+    }
+
+    .card-advantages .left{
+        display: block;
+        padding-left: 50px;
+    }
+    .card-advantages .right{
+        display: block;
+        padding-left: 50px;
+    }
+}

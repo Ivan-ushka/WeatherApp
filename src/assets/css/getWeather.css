@@ -1,0 +1,26 @@
+.get__weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:white
+}
+.form__city{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.city{
+    background: none;
+    margin-top: 20px;
+    border: 1px solid white;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.city:focus{
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+.profile-page {
+    font-family: Poppins, sans-serif;;
+    background: linear-gradient(90deg, rgba(53, 33, 99, 1) 0%, rgba(51, 25, 114, 1) 57%, rgba(51, 20, 60, 1) 100%);
+}
+.profile-border{
+    margin: 60px 200px;
+}
+.profile-page .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    flex-direction: column;
+    color: white;
+    height: 400px;
+}
+
+.isChange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.newPwd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.btn-wrap Button{
+    margin: 10px 5px 0 5px;
+    width: 80px;
+}

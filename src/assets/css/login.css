@@ -1,0 +1,142 @@
+.page-login {
+    font-family: Poppins, sans-serif;;
+}
+
+.page-login input, .page-login label {
+    margin: 0;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 460px;
+    padding: 50px 70px 50px 70px;
+}
+
+.login .container h1 {
+    padding-bottom: 55px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1f70bf;
+}
+
+.inp-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #e6e6e6;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 15px 35px;
+    margin-bottom: 10px;
+}
+
+.inp-wrap input {
+    width: 100%;
+    background: #e6e6e6;
+    margin-left: 8px;
+    outline: none;
+    border: none;
+    color: black;
+}
+
+.checkbox-wrap {
+    font-family: 'Raleway', sans-serif;
+    color: #999;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin-left: 4px;
+}
+
+.checkbox-wrap input, .checkbox-wrap label {
+    padding: 3px;
+}
+
+.btn-login {
+    border-radius: 3px;
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+    margin: 20px 0 35px 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background: #1f70bf;
+}
+.btn-login:hover{
+    opacity: 90%;
+}
+
+.text-form {
+    font-family: 'Raleway', sans-serif;
+    color: #999;
+    font-size: 16px;
+}
+
+.btn-form-wrap {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-form-wrap a{
+    border: 1px solid #e6e6e6;
+    width: 50%;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 3px;
+    color: #686868;
+}
+
+
+.btn-form-wrap a:hover, .btn-form-wrap a:hover {
+    border: 1px solid #1f70bf;
+    color: #1f70bf;
+}
+
+.btn-form-wrap img, .btn-form-wrap img {
+    margin-right: 5px;
+}
+
+.login .end {
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
+    color: #999;
+}
+
+.login .end a {
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
+    color: #999;
+}
+
+
+.inp-wrap input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+}
+
+.inp-wrap input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+.inp-wrap input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+.inp-wrap input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+}
+

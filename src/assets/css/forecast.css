@@ -1,0 +1,70 @@
+.hourly-forecast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1em;
+
+}
+
+.hourly-forecast .grid-unit{
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hourly-forecast .table-wrapper{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr) ;
+    grid-gap: 20px;
+}
+
+.hourly-forecast .box-unit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center ;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.hourly-forecast .box-unit div{
+    margin-top:1em;
+}
+
+.hourly-forecast h1{
+    color:white;
+    padding: 30px;
+
+}
+
+@media screen and (max-width: 750px) {
+    .hourly-forecast .box-unit{
+        width: 25vw;
+        height: 40vw;
+        font-size: 0.9em;
+    }
+    .hourly-forecast .box-unit img{
+        width: 30px;
+        height:30px;
+    }
+    .hourly-forecast .table-wrapper{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.4fr 0.4fr;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .home{
+        font-size:  0.7em;
+    }
+}

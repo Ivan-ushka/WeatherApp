@@ -1,0 +1,13 @@
+.home{
+    font-family: Poppins, sans-serif;
+}
+
+.get__weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color:white
+}
+
+

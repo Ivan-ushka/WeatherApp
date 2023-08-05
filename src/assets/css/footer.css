@@ -1,0 +1,54 @@
+.footer{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.36);
+    color: white;
+}
+
+.footer .social{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social a{
+    font-size: 26px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social a:hover{
+    color: #1f70bf;
+}
+
+.footer .list{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.footer ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul a:hover{
+    color: #1f70bf;
+}
+
+
+.footer p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .footer{
+        margin-top: 6vh;
+    }
+}
